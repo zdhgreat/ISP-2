@@ -1,12 +1,12 @@
-# DSR
-DSR is a plug-and-play prompting method
+# ISP^2
+ISP^2 is a plug-and-play prompting method
 
 
 ## Installation
 
 ```
-conda create -n DS python==3.10
-conda activate DS
+conda create -n ISP python==3.10
+conda activate ISP
 pip install -r requirements.txt
 ```
 
