@@ -18,7 +18,7 @@ Make sure that your device is able to connect to [OpenAI API](https://platform.o
 
 ## Setup LLaMA2
 **You must use 0.0.60 version of guidance while testing LlaMa models.**
-Get your Llama2 weight on https://huggingface.co/meta-llama/Llama-2-13b-hf, set up on default directory: ./llama-2-7b-chat-hf (You can change the dir on era-cot/config.py)
+Get your Llama2 weight on https://huggingface.co/meta-llama/Llama-2-13b-hf, set up on default directory: ./llama-2-13b-hf 
 
 
 ## Run paper experiments
