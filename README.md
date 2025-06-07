@@ -4,7 +4,7 @@
 ![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)
 
 
-![teaser](pics/teaser.png)
+![ISP](ISP.drawio.png)
 
 ISP^2 is a plug-and-play prompting method
 
