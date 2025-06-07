@@ -6,7 +6,7 @@
 
 ![ISP](ISP.drawio.png)
 
-ISP^2 is a plug-and-play prompting method
+ISP<sup>2</sup> is a plug-and-play prompting method, as shown in Figure. It is can be easily combined with preivious works such as Chain-of-Thought and Self-Consistency, as they are orthogonal. The work was accomplished by Dong-Hai Zhu, Yu-Jie Xiong, Jia-Chen Zhang, Xi-Jiong Xie, and Chun-Ming Xia.
 
 ## Setup OpenAI API
 
@@ -14,7 +14,7 @@ Please set `os.environ["OPENAI_API_KEY"]="YOUR_API_KEY"` in all python scripts.
 
 Make sure that your device is able to connect to [OpenAI API](https://platform.openai.com/docs/api-reference). 
 
-Of course, we also support users calling DeepSeek's API. For more details on how to use DeepSeek, please refer to [OpenAI API](https://api-docs.deepseek.com/zh-cn/).
+Of course, we also support users calling DeepSeek's API. For more details on how to use DeepSeek, please refer to [DeepSeek API](https://api-docs.deepseek.com/zh-cn/).
 
 ## How to Use
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 
 
-## Setup LLaMA2
+## Setup Model
 **You must use 0.0.60 version of guidance while testing LlaMa models.**
 Get your Llama2 weight on https://huggingface.co/meta-llama/Llama-2-13b-hf, set up on default directory: ./llama-2-13b-hf 
 
