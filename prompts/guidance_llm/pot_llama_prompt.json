@@ -1,0 +1,85 @@
+{
+    "AQUA": {
+        "pot": [
+            {
+                "problem": "A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?",
+                "options": "A) 53 km B) 55 km C) 52 km D) 60 km E) 50 km",
+                "code": "# Define the speed and time values; speed = 20; time = 2.5; # Calculate the distance using the formula; distance = speed * time; # Output the result (distance in kilometers); print(int(distance))  # Convert to integer for whole number",
+                "answer": "50",
+                "choice": "E"
+            },
+            {
+                "problem": "John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of the numbers is?",
+                "options": "A) 50 B) 45 C) 65 D) 78 E) 64",
+                "code": "# Define original average and count of numbers; original_average = 40; count = 15; # Calculate new average after adding 10 to each number; new_average = original_average + 10; # Output the result; print(int(new_average))  # Convert to integer for whole number",
+                "answer": "50",
+                "choice": "A"
+            },
+            {
+                "problem": "If a / b = 3/4 and 8a + 5b = 22,then find the value of a.",
+                "options": "A) 1/2 B) 3/2 C) 5/2 D) 4/2 E) 7/2",
+                "code": "# Given ratio and equation; from sympy import symbols, solve; a, b = symbols('a b'); eq1 = a / b - 3/4  # a/b = 3/4; eq2 = 8*a + 5*b - 22  # 8a +5b =22; solution = solve((eq1, eq2), (a, b)); print(solution[a])  # Output the result",
+                "answer": "3/2",
+                "choice": "B"
+            }
+        ]
+
+    },
+    "gsm8k": {
+        "pot": [
+            {
+                "problem": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+                "code": "# Define the total number of eggs laid by Janet's ducks per day; total_eggs_per_day = 16; # Define the number of eggs consumed for breakfast and baking; eggs_for_breakfast = 3; eggs_for_baking = 4; # Calculate the number of eggs available for sale; eggs_for_sale = total_eggs_per_day - eggs_for_breakfast - eggs_for_baking; # Define the price per egg at the farmers' market; price_per_egg = 2; # Calculate the total income from selling eggs at the farmers' market; daily_income_farmers_market = eggs_for_sale * price_per_egg; # Output the daily income at the farmers' market; print(daily_income_farmers_market)",
+                "answer": "18"
+            },
+            {
+                "problem": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+                "code": "# Define the number of bolts of blue fiber needed; blue_fiber = 2; white_fiber = blue_fiber / 2; total_bolts = blue_fiber + white_fiber; print(total_bolts)",
+                "answer": "3"
+            },
+            {
+                "problem": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+                "code": "# Define the initial purchase price of the house; purchase_price = 80000; # Define the cost of repairs; repairs_cost = 50000; # Calculate the increased value percentage; increase_percentage = 150; # Calculate the total cost including purchase price and repairs; total_cost = purchase_price + repairs_cost; # Calculate the final value of the house after repairs; final_value = purchase_price + (increase_percentage / 100) * purchase_price; # Calculate the profit made; profit = final_value - total_cost; # Output the profit made; print(profit)",
+                "answer": "70000"
+            }
+        ]
+    },
+    "svamp": {
+        "pot": [
+            {
+                "problem": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+                "code": "# Define the total number of eggs laid by Janet's ducks per day; total_eggs_per_day = 16; # Define the number of eggs consumed for breakfast and baking; eggs_for_breakfast = 3; eggs_for_baking = 4; # Calculate the number of eggs available for sale; eggs_for_sale = total_eggs_per_day - eggs_for_breakfast - eggs_for_baking; # Define the price per egg at the farmers' market; price_per_egg = 2; # Calculate the total income from selling eggs at the farmers' market; daily_income_farmers_market = eggs_for_sale * price_per_egg; # Output the daily income at the farmers' market; print(daily_income_farmers_market)",
+                "answer": "18"
+            },
+            {
+                "problem": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+                "code": "# Define the number of bolts of blue fiber needed; blue_fiber = 2; white_fiber = blue_fiber / 2; total_bolts = blue_fiber + white_fiber; print(total_bolts)",
+                "answer": "3"
+            },
+            {
+                "problem": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+                "code": "# Define the initial purchase price of the house; purchase_price = 80000; # Define the cost of repairs; repairs_cost = 50000; # Calculate the increased value percentage; increase_percentage = 150; # Calculate the total cost including purchase price and repairs; total_cost = purchase_price + repairs_cost; # Calculate the final value of the house after repairs; final_value = purchase_price + (increase_percentage / 100) * purchase_price; # Calculate the profit made; profit = final_value - total_cost; # Output the profit made; print(profit)",
+                "answer": "70000"
+            }
+        ]
+    },
+    "AddSub": {
+        "pot": [
+            {
+                "problem": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+                "code": "# Define the total number of eggs laid by Janet's ducks per day; total_eggs_per_day = 16; # Define the number of eggs consumed for breakfast and baking; eggs_for_breakfast = 3; eggs_for_baking = 4; # Calculate the number of eggs available for sale; eggs_for_sale = total_eggs_per_day - eggs_for_breakfast - eggs_for_baking; # Define the price per egg at the farmers' market; price_per_egg = 2; # Calculate the total income from selling eggs at the farmers' market; daily_income_farmers_market = eggs_for_sale * price_per_egg; # Output the daily income at the farmers' market; print(daily_income_farmers_market)",
+                "answer": "18"
+            },
+            {
+                "problem": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+                "code": "# Define the number of bolts of blue fiber needed; blue_fiber = 2; white_fiber = blue_fiber / 2; total_bolts = blue_fiber + white_fiber; print(total_bolts)",
+                "answer": "3"
+            },
+            {
+                "problem": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+                "code": "# Define the initial purchase price of the house; purchase_price = 80000; # Define the cost of repairs; repairs_cost = 50000; # Calculate the increased value percentage; increase_percentage = 150; # Calculate the total cost including purchase price and repairs; total_cost = purchase_price + repairs_cost; # Calculate the final value of the house after repairs; final_value = purchase_price + (increase_percentage / 100) * purchase_price; # Calculate the profit made; profit = final_value - total_cost; # Output the profit made; print(profit)",
+                "answer": "70000"
+            }
+        ]
+    }
+}

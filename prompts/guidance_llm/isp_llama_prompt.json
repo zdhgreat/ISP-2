@@ -1,0 +1,535 @@
+{
+    "AQUA": {
+        "cot": [
+            {
+                "problem": "A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?",
+                "options": "A) 53 km B) 55 km C) 52 km D) 60 km E) 50 km",
+                "key_entities": [
+                    "Travel speed",
+                    "Travel time"
+                ],
+                "hints": [
+                    "The person is traveling at a constant speed of 20 km/hr.",
+                    "The travel time to reach the destination is 2.5 hours.",
+                    "The distance traveled can be found by multiplying the speed by the travel time."
+                ],
+                "COT": "The distance that the person traveled would have been 20 km/hr * 2.5 hrs = 50 km.",
+                "answer": "50",
+                "choice": "E"
+            },
+            {
+                "problem": "John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of the numbers is?",
+                "options": "A) 50 B) 45 C) 65 D) 78 E) 64",
+                "key_entities": [
+                    "Original average of numbers",
+                    "Increment added to each number"
+                ],
+                "hints": [
+                    "The initial average of 15 numbers is 40.",
+                    "An increment of 10 is added to each number.",
+                    "Adding the same value to each number in a dataset increases the mean by that value.",
+                    "The new mean of the numbers will be 50."
+                ],
+                "COT": "If 10 is added to each number, then the mean of the numbers also increases by 10. So the new mean would be 50.",
+                "answer": "50",
+                "choice": "A"
+            },
+            {
+                "problem": "If a / b = 3/4 and 8a + 5b = 22,then find the value of a.",
+                "options": "A) 1/2 B) 3/2 C) 5/2 D) 4/2 E) 7/2",
+                "key_entities": [
+                    "Ratio a/b",
+                    "Equation 8a + 5b = 22"
+                ],
+                "hints": [
+                    "The given ratio a/b=3/4 implies a=3b/4.",
+                    "Substituting a=3b/4 in the linear equation 8a+5b=22 allows for the calculation of b.",
+                    "Once b is determined, a can be calculated using the proportionality a=3b/4.",
+                    "These steps provide a method to solve for a using algebraic manipulation based on the proportionality and linear equation."
+                ],
+                "COT": "If a / b = 3/4, then b = 4a / 3. So 8a + 5(4a / 3) = 22. This simplifies to 8a + 20a / 3 = 22, which means 44a / 3 = 22. So a is equal to 3/2.",
+                "answer": "3/2",
+                "choice": "B"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?",
+                "options": "A) 53 km B) 55 km C) 52 km D) 60 km E) 50 km",
+                "key_entities": [
+                    "Travel speed",
+                    "Travel time"
+                ],
+                "hints": [
+                    "The person is traveling at a constant speed of 20 km/hr.",
+                    "The travel time to reach the destination is 2.5 hours.",
+                    "The distance traveled can be found by multiplying the speed by the travel time."
+                ],
+                "COT": "To find the distance traveled, you can use the formula: distance = speed \u00d7 time.\nThe person is traveling at a constant speed of 20 km/hr.\nThe total time taken to reach the destination is 2.5 hours.\nTo find the distance, we use the formula:Distance=Speed\u00d7Time\nSubstituting the given values:Distance=20\u00a0km/hr\u00d72.5\u00a0hr\nCalculate the product:Distance=50\u00a0km",
+                "answer": "50",
+                "choice": "E"
+            },
+            {
+                "problem": "John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of the numbers is?",
+                "options": "A) 50 B) 45 C) 65 D) 78 E) 64",
+                "key_entities": [
+                    "Original average of numbers",
+                    "Increment added to each number"
+                ],
+                "hints": [
+                    "The initial average of 15 numbers is 40.",
+                    "An increment of 10 is added to each number.",
+                    "Adding the same value to each number in a dataset increases the mean by that value.",
+                    "The new mean of the numbers will be 50."
+                ],
+                "COT": "When the same value is added to each number in a set, the mean of the set also increases by the same value.\nThe average of 15 numbers is 40, which means the sum of these numbers can be found by multiplying the average by the number of numbers.\nSum of the numbers = 15 * 40 = 600.\nIf 10 is added to each of the 15 numbers, then the total increase in the sum will be 10 * 15 = 150.\nThe new sum of the numbers will be 600 + 150 = 750.\nTo find the new mean, divide the new sum by the number of numbers, which remains the same (15).\nNew mean = 750 / 15 = 50.",
+                "answer": "50",
+                "choice": "A"
+            },
+            {
+                "problem": "If a / b = 3/4 and 8a + 5b = 22,then find the value of a.",
+                "options": "A) 1/2 B) 3/2 C) 5/2 D) 4/2 E) 7/2",
+                "key_entities": [
+                    "Ratio a/b",
+                    "Equation 8a + 5b = 22"
+                ],
+                "hints": [
+                    "The given ratio a/b=3/4 implies a=3b/4.",
+                    "Substituting a=3b/4 in the linear equation 8a+5b=22 allows for the calculation of b.",
+                    "Once b is determined, a can be calculated using the proportionality a=3b/4.",
+                    "These steps provide a method to solve for a using algebraic manipulation based on the proportionality and linear equation."
+                ],
+                "COT": "Simplify the equation and solve for a using algebraic manipulation.\nWe are given the equation a/b=3/4. From this, we can express a=(3/4)\u00d7b.\nWe also have the equation 8a+5b=22. Substituting the expression for a from the first equation into the second equation, we get: 8\u00d7(3/4)\u00d7b+5b=22.\nThis simplifies to:6b+5b=22.\nCombining like terms, we get:11b=22.\nSolving for b, we divide both sides by 11: b=2.\nNow that we have the value of b, we can find a using the expression a=(3/4)\u00d7b:a=(3/4)\u00d72=3/2.\nThus, the value of a is 3/2.",
+                "answer": "3/2",
+                "choice": "B"
+            },
+            {
+                "problem": "How many keystrokes are needed to type the numbers from 1 to 500?",
+                "options": "A) 1156 B) 1392 C) 1480 D) 1562 E) 1788",
+                "key_entities": [
+                    "Numbers 1 to 500 ending"
+                ],
+                "hints": [
+                    "Count how many numbers are in the range 1 to 9, 10 to 99, and 100 to 500 to determine keystrokes needed for each range.",
+                    "Numbers from 1 to 9 require 1 keystroke each.",
+                    "Numbers from 10 to 99 require 2 keystrokes each.",
+                    "Numbers from 100 to 500 require 3 keystrokes each. ending"
+                ],
+                "COT": "To solve this problem, you need to calculate the number of keystrokes required to type the numbers from 1 to 500.\nThere are 9 one-digit numbers from 1 to 9.\nThere are 90 two-digit numbers from 10 to 99.\nThere are 401 three-digit numbers from 100 to 500.\n9 + 90(2) + 401(3) = 1392.",
+                "answer": "1392",
+                "choice": "B"
+            }
+        ]
+    },
+    "CSQA": {
+        "cot": [
+            {
+                "problem": "Where would you find a sloth that is not afraid of being hunted? ",
+                "options": "A) forest canopy B) nature preserve C) zoo D) tropical rainforest E) commercial",
+                "key_entities": [
+                    "Sloth",
+                    "Hunting Fear",
+                    "Safe Locations"
+                ],
+                "hints": [
+                    "Sloths' survival in their natural habitats relies on their ability to remain undetected, primarily through camouflage and staying in high canopy areas to avoid ground-level predators.",
+                    "The observed absence of hunting fear in sloths points to environments like zoos and nature preserves where natural predators are absent, controlled, or non-threatening due to human management.",
+                    "These controlled environments not only simulate the natural conditions necessary for sloth well-being, such as tree-rich enclosures, but also enhance safety with measures like monitored enclosures and restricted access, ensuring that sloths can exhibit natural behaviors without the stress of predation."
+                ],
+                "COT": "To answer the question of where you would find a sloth that is not afraid of being hunted, we need to know where sloths live and when sloths are not afraid of being hunted.\nSloths live in places where their habitats are well protected.\nSloths are not afraid of being hunted when hunting is illegal in their living places.\nOf the above choices, (B) nature preserve makes the most sense because it well protects sloths' habitats and forbids hunting.",
+                "choice": "B"
+            },
+            {
+                "problem": "What gift do people claim that god has for people?",
+                "options": "A) bible B) everywhere C) judge people D) care for people E) work miracles",
+                "key_entities": [
+                    "God",
+                    "Gifts from God",
+                    "Spiritual Beliefs"
+                ],
+                "hints": [
+                    "The concept of divine gifts encompasses both tangible and intangible blessings that God provides to believers, which are grounded in spiritual beliefs and reinforced by religious teachings.",
+                    "Spiritual gifts such as miracles, prophecy, and healing serve as direct manifestations of divine intervention, offering both solace and a tangible connection to the divine, thus strengthening the faith of believers.",
+                    "The influence of these spiritual beliefs shapes the behaviors and practices of followers, promoting a lifestyle that aligns with receiving and recognizing these gifts through acts of worship, prayer, and communal religious activities."
+                ],
+                "COT": "To answer the question of what gift do people claim that god has for people, we need to know what is a gift from god and what people cannot do without the gift from god.\nThe gift from god is an ability that people normally cannot achieve.\nPeople normally cannot create miracles unless it is gifted by god. Of the above choices, (E) work miracles make the most sense because miracles refer to something that people cannot achieve unless it is gifted by god.",
+                "choice": "E"
+            },
+            {
+                "problem": "What is probably not built out of a wooden rod?",
+                "options": "A) supermarket B) dick C) bedroom D) medicine chest E) bed",
+                "key_entities": [
+                    "Condoms",
+                    "Intimate Use",
+                    "Privacy and Safety"
+                ],
+                "hints": [
+                    "Wooden rods, while useful for small-scale items and crafts, lack the structural integrity needed for larger, more demanding construction tasks.",
+                    "Their limited size and mechanical strength make them unsuitable for use as main structural elements in large buildings or complex facilities, which require materials capable of supporting much greater loads and stresses.",
+                    "The nature and typical use of wooden rods in smaller projects and household items clearly delineate their limitations in applications requiring durable, robust materials, such as in the construction of buildings or large stores."
+                ],
+                "COT": "To answer the question of what is probably not built out of a wooden rod, we need to know what is a wooden rod and what a wooden rod can do.\nA wooden rod is a stick made of wood of various sizes.\nA wooden rod can be used as a part of tools or furniture. Of the above choices, (E) old houses make the most sense because the wooden rod is too weak to support old houses.",
+                "choice": "E"
+            },
+            {
+                "problem": "Where do you use condoms? ",
+                "options": "A) broom B) broom closet C) old clock D) hardware store E) old houses",
+                "key_entities": [
+                    "Wooden Rod",
+                    "Common Uses of Wooden Rods",
+                    "Construction Materials"
+                ],
+                "hints": [
+                    "1. Condoms are specifically designed for usage during sexual activities, primarily aimed at contraception and protection against sexually transmitted infections, emphasizing their role in personal health and safety.",
+                    "2. The typical use of condoms in private settings like bedrooms highlights the privacy aspect of sexual health, where accessibility and discretion are crucial for ensuring user comfort and safety.",
+                    "3. Storage and accessibility practices, such as keeping condoms in bedrooms or medicine chests, support their use in spontaneous or planned intimate moments, ensuring they are readily available in settings that maintain the privacy and security of the users."
+                ],
+                "COT": "To answer the question of where do you use condoms, we need to know when do people need condoms and where is the place people stay when they use condoms.\nPeople use condoms when they have sex.\nPeople have sex and use condoms in their bedrooms.\nOf the above choices, (C) bedroom makes the most sense because it is most polite and appropriate for people to have sex with condoms in the bedroom.",
+                "choice": "C"
+            }
+        ]
+    },
+    "SQA": {
+        "cot": [
+            {
+                "problem": "Do hamsters provide food for any animals?",
+                "key_entities": [
+                    "Hamsters",
+                    "Predators"
+                ],
+                "hints": [
+                    "1. Hamsters are small rodents native to regions in Europe and Asia, and they are a common prey for various predators due to their size and habitat.",
+                    "2. Predatory birds such as owls and hawks, as well as mammals like foxes, weasels, and snakes, regularly hunt and consume wild hamsters.",
+                    "3. Domestic cats may also prey on pet hamsters if they have the opportunity, reflecting their inherent predatory instincts towards small animals."
+                ],
+                "COT": "Consider the natural role of hamsters in the food chain and who might rely on them as a source of nutrition.\nHamsters are prey animals.\nPrey are food for predators.\nThus, hamsters provide food for some animals.\nSo the answer is yes.",
+                "choice": "Yes"
+            },
+            {
+                "problem": "Could Brooke Shields succeed at University of Pennsylvania?",
+                "key_entities": [
+                    "Brooke Shields",
+                    "University of Pennsylvania"
+                ],
+                "hints": [
+                    "1. Brooke Shields, an American actress and model, has demonstrated intelligence and academic dedication by graduating from Princeton University with a degree in French literature.",
+                    "2. The University of Pennsylvania, a prestigious Ivy League institution in Philadelphia, offers rigorous academic programs and has a history of successful alumni.",
+                    "3. Given her academic background and the supportive environment of the University of Pennsylvania, Brooke Shields is well-positioned to succeed academically at this institution."
+                ],
+                "COT": "Consider Brooke Shields' academic history and the comparative academic rigor of Princeton University and the University of Pennsylvania. This should guide you toward understanding her potential success at the latter institution.\nBrooke Shields went to Princeton University.\nPrinceton University is about as academically rigorous as the University of Pennsylvania.\nThus, Brooke Shields could also succeed at the University of Pennsylvania.\nSo the answer is yes.",
+                "choice": "Yes"
+            },
+            {
+                "problem": "Hydrogen's atomic number squared exceeds number of Spice Girls?",
+                "key_entities": [
+                    "Hydrogen",
+                    "Spice Girls"
+                ],
+                "hints": [
+                    "1. Hydrogen, the first element on the periodic table, has an atomic number of 1, which, when squared, results in 1.",
+                    "2. The Spice Girls, a famous British girl group from the 1990s, originally consisted of five members.",
+                    "3. Since 1 (Hydrogen's atomic number squared) is less than 5 (number of Spice Girls members), Hydrogen's atomic number squared does not exceed the number of Spice Girls members."
+                ],
+                "COT": "Consider the atomic number of hydrogen and how many members were in the Spice Girls. Compare these numbers accordingly.\nHydrogen has an atomic number of 1.\n1 squared is 1.\nThere are 5 Spice Girls.\nThus, Hydrogen's atomic number squared is less than 5.\nSo the answer is no.",
+                "choice": "No"
+            }
+        ]
+    },
+    "gsm8k": {
+        "cot": [
+            {
+                "problem": "Last week Fred had 60 dollars and Jason had 19 dollars. Jason washed cars over the weekend and now has 33 dollars. How much money did Jason make washing cars?",
+                "key_entities": [
+                    "Final amount of money Jason has",
+                    "Initial amount of money Jason had"
+                ],
+                "hints": [
+                    "Jason had 19 dollars initially.",
+                    "After washing cars, Jason now has 33 dollars.",
+                    "Jason's earnings from washing cars can be calculated by finding the difference between his final amount and initial amount."
+                ],
+                "COT": "Initially, Jason had $19. After washing cars over the weekend, he now has $33. To find out how much money Jason made washing cars, we need to calculate the difference between his final amount and his initial amount. This can be done by subtracting his initial amount from his final amount: $33 - $19 = $14. Therefore, Jason made $14 washing cars over the weekend.",
+                "answer": "14"
+            },
+            {
+                "problem": "Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?",
+                "key_entities": [
+                    "Number of bottle caps found at the park",
+                    "Total number of wrappers"
+                ],
+                "hints": [
+                    "Danny found 66 wrappers at the park and currently has 68 wrappers in his collection.",
+                    "The total number of wrappers he has now includes the wrappers found at the park.",
+                    "By subtracting the wrappers found at the park from the total wrappers he has now, we can determine the number of wrappers he initially had."
+                ],
+                "COT": "Let's denote the initial number of wrappers Danny had as \\(x\\). From the given information, we know that Danny found 66 wrappers at the park and currently has 68 wrappers in total. This means that the wrappers he found at the park are included in the total count of 68 wrappers. Therefore, the number of wrappers he had initially can be calculated by subtracting the wrappers found at the park from the total wrappers he has now:\n\n\\(x + 66 = 68\\)\n\\(x = 68 - 66\\)\n\\(x = 2\\)\n\nThus, Danny initially had 2 wrappers in his collection.",
+                "answer": "2"
+            },
+            {
+                "problem": "After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron. How deep was the water?",
+                "key_entities": [
+                    "Dean's height",
+                    "Depth of the water",
+                    "Ron's height"
+                ],
+                "hints": [
+                    "Ron's height is given as 15 feet.",
+                    "Dean is 6 feet shorter than Ron.",
+                    "Dean's height can be calculated by subtracting 6 feet from Ron's height.",
+                    "The depth of the water is 9 times Dean's height.",
+                    "Multiplying Dean's height by 9 gives the depth of the water."
+                ],
+                "COT": "Let's denote Ron's height as \\( R \\) and Dean's height as \\( D \\). Given that Ron is 15 feet tall, we have \\( R = 15 \\) feet. Since Dean is 6 feet shorter than Ron, we can express Dean's height as \\( D = R - 6 \\). Substituting the value of Ron's height, we get \\( D = 15 - 6 = 9 \\) feet for Dean's height.\n\nThe depth of the water is 9 times Dean's height. Therefore, the depth of the water can be calculated as \\( 9 \times D = 9 \times 9 = 81 \\) feet. Hence, the depth of the water is 81 feet.",
+                "answer": "81"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Paul got a box of 110 crayons for his birthday. During the school year he gave 90 crayons to his friends while he lost 412 crayons. How many more crayons did he lose than those he gave to his friends?",
+                "key_entities": [
+                    "Number of crayons given to friends",
+                    "Number of crayons lost",
+                    "Total number of crayons received"
+                ],
+                "hints": [
+                    "1. Paul received a box with 110 crayons for his birthday.",
+                    "2. He gave 90 crayons to his friends during the school year.",
+                    "3. Paul lost 412 crayons in total.",
+                    "4. To determine the difference between the crayons lost and those given away, we subtract the number of crayons given away from the total number of crayons lost."
+                ],
+                "COT": "Paul received 110 crayons for his birthday.\nHe gave 90 crayons to his friends during the school year.\nPaul lost 412 crayons in total.\nTo find out how many more crayons he lost than those he gave to his friends, we subtract the number of crayons given away from the total number of crayons lost.\nThe difference between the crayons lost and those given away is 412 - 90 = 322 crayons.",
+                "answer": "322"
+            },
+            {
+                "problem": "Winter is almost here and most animals are migrating to warmer countries. There are 8 bird families living near the mountain. If 42 bird families flew away to africa and 31 bird families flew away to asia. How many more bird families flew away to africa than those that flew away to asia?",
+                "key_entities": [
+                    "Number of bird families that flew away to Africa",
+                    "Number of bird families that flew away to Asia",
+                    "Total number of bird families near the mountain"
+                ],
+                "hints": [
+                    "1. There are 8 bird families living near the mountain.",
+                    "2. 42 bird families migrated to Africa, and 31 bird families migrated to Asia.",
+                    "3. The difference between the number of bird families migrating to Africa and Asia can be calculated to determine how many more families flew to Africa.",
+                    "4. The total number of bird families near the mountain is essential to calculate the migration discrepancy."
+                ],
+                "COT": "There are 8 bird families living near the mountain.\n42 bird families flew away to Africa, and 31 bird families flew away to Asia.\nTo find out how many more bird families flew to Africa than to Asia, we need to calculate the difference between the two.\nThe total number of bird families near the mountain is 8.\nThe difference between the number of bird families that flew to Africa and Asia is 42 - 31 = 11.\nTherefore, 11 more bird families flew to Africa than to Asia.",
+                "answer": "11"
+            },
+            {
+                "problem": "Paul got a box of 267 crayons for his birthday. During the school year he lost 231 crayons while he gave away 308 crayons to his friends. How many more crayons did he give to his friends than those he lost?",
+                "key_entities": [
+                    "Number of crayons given to friends",
+                    "Number of crayons lost",
+                    "Total number of crayons received"
+                ],
+                "hints": [
+                    "1. Paul received a box containing 267 crayons for his birthday.",
+                    "2. He lost 231 crayons during the school year.",
+                    "3. He gave away 308 crayons to his friends.",
+                    "4. To find out how many more crayons he gave to his friends than those he lost, we need to calculate the difference between the number of crayons given away and the number lost."
+                ],
+                "COT": "Paul received 267 crayons for his birthday.\nHe lost 231 crayons during the school year.\nHe gave away 308 crayons to his friends.\nTo find out how many more crayons he gave to his friends than those he lost, we calculate the difference between the number of crayons given away and the number lost.\nThe difference between the number of crayons given to friends and those lost is 308 - 231 = 77 crayons.",
+                "answer": "77"
+            }     
+        ]
+    },
+    "svamp": {
+        "cot": [
+            {
+                "problem": "Last week Fred had 60 dollars and Jason had 19 dollars. Jason washed cars over the weekend and now has 33 dollars. How much money did Jason make washing cars?",
+                "key_entities": [
+                    "Final amount of money Jason has",
+                    "Initial amount of money Jason had"
+                ],
+                "hints": [
+                    "Jason had 19 dollars initially.",
+                    "After washing cars, Jason now has 33 dollars.",
+                    "Jason's earnings from washing cars can be calculated by finding the difference between his final amount and initial amount."
+                ],
+                "COT": "Initially, Jason had $19. After washing cars over the weekend, he now has $33. To find out how much money Jason made washing cars, we need to calculate the difference between his final amount and his initial amount. This can be done by subtracting his initial amount from his final amount: $33 - $19 = $14. Therefore, Jason made $14 washing cars over the weekend.",
+                "answer": "14"
+            },
+            {
+                "problem": "Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?",
+                "key_entities": [
+                    "Number of bottle caps found at the park",
+                    "Total number of wrappers"
+                ],
+                "hints": [
+                    "Danny found 66 wrappers at the park and currently has 68 wrappers in his collection.",
+                    "The total number of wrappers he has now includes the wrappers found at the park.",
+                    "By subtracting the wrappers found at the park from the total wrappers he has now, we can determine the number of wrappers he initially had."
+                ],
+                "COT": "Let's denote the initial number of wrappers Danny had as \\(x\\). From the given information, we know that Danny found 66 wrappers at the park and currently has 68 wrappers in total. This means that the wrappers he found at the park are included in the total count of 68 wrappers. Therefore, the number of wrappers he had initially can be calculated by subtracting the wrappers found at the park from the total wrappers he has now:\n\n\\(x + 66 = 68\\)\n\\(x = 68 - 66\\)\n\\(x = 2\\)\n\nThus, Danny initially had 2 wrappers in his collection.",
+                "answer": "2"
+            },
+            {
+                "problem": "After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron. How deep was the water?",
+                "key_entities": [
+                    "Dean's height",
+                    "Depth of the water",
+                    "Ron's height"
+                ],
+                "hints": [
+                    "Ron's height is given as 15 feet.",
+                    "Dean is 6 feet shorter than Ron.",
+                    "Dean's height can be calculated by subtracting 6 feet from Ron's height.",
+                    "The depth of the water is 9 times Dean's height.",
+                    "Multiplying Dean's height by 9 gives the depth of the water."
+                ],
+                "COT": "Let's denote Ron's height as \\( R \\) and Dean's height as \\( D \\). Given that Ron is 15 feet tall, we have \\( R = 15 \\) feet. Since Dean is 6 feet shorter than Ron, we can express Dean's height as \\( D = R - 6 \\). Substituting the value of Ron's height, we get \\( D = 15 - 6 = 9 \\) feet for Dean's height.\n\nThe depth of the water is 9 times Dean's height. Therefore, the depth of the water can be calculated as \\( 9 \times D = 9 \times 9 = 81 \\) feet. Hence, the depth of the water is 81 feet.",
+                "answer": "81"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Paul got a box of 110 crayons for his birthday. During the school year he gave 90 crayons to his friends while he lost 412 crayons. How many more crayons did he lose than those he gave to his friends?",
+                "key_entities": [
+                    "Number of crayons given to friends",
+                    "Number of crayons lost",
+                    "Total number of crayons received"
+                ],
+                "hints": [
+                    "1. Paul received a box with 110 crayons for his birthday.",
+                    "2. He gave 90 crayons to his friends during the school year.",
+                    "3. Paul lost 412 crayons in total.",
+                    "4. To determine the difference between the crayons lost and those given away, we subtract the number of crayons given away from the total number of crayons lost."
+                ],
+                "COT": "Paul received 110 crayons for his birthday.\nHe gave 90 crayons to his friends during the school year.\nPaul lost 412 crayons in total.\nTo find out how many more crayons he lost than those he gave to his friends, we subtract the number of crayons given away from the total number of crayons lost.\nThe difference between the crayons lost and those given away is 412 - 90 = 322 crayons.",
+                "answer": "322"
+            },
+            {
+                "problem": "Winter is almost here and most animals are migrating to warmer countries. There are 8 bird families living near the mountain. If 42 bird families flew away to africa and 31 bird families flew away to asia. How many more bird families flew away to africa than those that flew away to asia?",
+                "key_entities": [
+                    "Number of bird families that flew away to Africa",
+                    "Number of bird families that flew away to Asia",
+                    "Total number of bird families near the mountain"
+                ],
+                "hints": [
+                    "1. There are 8 bird families living near the mountain.",
+                    "2. 42 bird families migrated to Africa, and 31 bird families migrated to Asia.",
+                    "3. The difference between the number of bird families migrating to Africa and Asia can be calculated to determine how many more families flew to Africa.",
+                    "4. The total number of bird families near the mountain is essential to calculate the migration discrepancy."
+                ],
+                "COT": "There are 8 bird families living near the mountain.\n42 bird families flew away to Africa, and 31 bird families flew away to Asia.\nTo find out how many more bird families flew to Africa than to Asia, we need to calculate the difference between the two.\nThe total number of bird families near the mountain is 8.\nThe difference between the number of bird families that flew to Africa and Asia is 42 - 31 = 11.\nTherefore, 11 more bird families flew to Africa than to Asia.",
+                "answer": "11"
+            },
+            {
+                "problem": "Paul got a box of 267 crayons for his birthday. During the school year he lost 231 crayons while he gave away 308 crayons to his friends. How many more crayons did he give to his friends than those he lost?",
+                "key_entities": [
+                    "Number of crayons given to friends",
+                    "Number of crayons lost",
+                    "Total number of crayons received"
+                ],
+                "hints": [
+                    "1. Paul received a box containing 267 crayons for his birthday.",
+                    "2. He lost 231 crayons during the school year.",
+                    "3. He gave away 308 crayons to his friends.",
+                    "4. To find out how many more crayons he gave to his friends than those he lost, we need to calculate the difference between the number of crayons given away and the number lost."
+                ],
+                "COT": "Paul received 267 crayons for his birthday.\nHe lost 231 crayons during the school year.\nHe gave away 308 crayons to his friends.\nTo find out how many more crayons he gave to his friends than those he lost, we calculate the difference between the number of crayons given away and the number lost.\nThe difference between the number of crayons given to friends and those lost is 308 - 231 = 77 crayons.",
+                "answer": "77"
+            }     
+        ]
+    },
+    "AddSub": {
+        "cot": [
+            {
+                "problem": "Last week Fred had 60 dollars and Jason had 19 dollars. Jason washed cars over the weekend and now has 33 dollars. How much money did Jason make washing cars?",
+                "key_entities": [
+                    "Final amount of money Jason has",
+                    "Initial amount of money Jason had"
+                ],
+                "hints": [
+                    "Jason had 19 dollars initially.",
+                    "After washing cars, Jason now has 33 dollars.",
+                    "Jason's earnings from washing cars can be calculated by finding the difference between his final amount and initial amount."
+                ],
+                "COT": "Initially, Jason had $19. After washing cars over the weekend, he now has $33. To find out how much money Jason made washing cars, we need to calculate the difference between his final amount and his initial amount. This can be done by subtracting his initial amount from his final amount: $33 - $19 = $14. Therefore, Jason made $14 washing cars over the weekend.",
+                "answer": "14"
+            },
+            {
+                "problem": "Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?",
+                "key_entities": [
+                    "Number of bottle caps found at the park",
+                    "Total number of wrappers"
+                ],
+                "hints": [
+                    "Danny found 66 wrappers at the park and currently has 68 wrappers in his collection.",
+                    "The total number of wrappers he has now includes the wrappers found at the park.",
+                    "By subtracting the wrappers found at the park from the total wrappers he has now, we can determine the number of wrappers he initially had."
+                ],
+                "COT": "Let's denote the initial number of wrappers Danny had as \\(x\\). From the given information, we know that Danny found 66 wrappers at the park and currently has 68 wrappers in total. This means that the wrappers he found at the park are included in the total count of 68 wrappers. Therefore, the number of wrappers he had initially can be calculated by subtracting the wrappers found at the park from the total wrappers he has now:\n\n\\(x + 66 = 68\\)\n\\(x = 68 - 66\\)\n\\(x = 2\\)\n\nThus, Danny initially had 2 wrappers in his collection.",
+                "answer": "2"
+            },
+            {
+                "problem": "After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron. How deep was the water?",
+                "key_entities": [
+                    "Dean's height",
+                    "Depth of the water",
+                    "Ron's height"
+                ],
+                "hints": [
+                    "Ron's height is given as 15 feet.",
+                    "Dean is 6 feet shorter than Ron.",
+                    "Dean's height can be calculated by subtracting 6 feet from Ron's height.",
+                    "The depth of the water is 9 times Dean's height.",
+                    "Multiplying Dean's height by 9 gives the depth of the water."
+                ],
+                "COT": "Let's denote Ron's height as \\( R \\) and Dean's height as \\( D \\). Given that Ron is 15 feet tall, we have \\( R = 15 \\) feet. Since Dean is 6 feet shorter than Ron, we can express Dean's height as \\( D = R - 6 \\). Substituting the value of Ron's height, we get \\( D = 15 - 6 = 9 \\) feet for Dean's height.\n\nThe depth of the water is 9 times Dean's height. Therefore, the depth of the water can be calculated as \\( 9 \times D = 9 \times 9 = 81 \\) feet. Hence, the depth of the water is 81 feet.",
+                "answer": "81"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Paul got a box of 110 crayons for his birthday. During the school year he gave 90 crayons to his friends while he lost 412 crayons. How many more crayons did he lose than those he gave to his friends?",
+                "key_entities": [
+                    "Number of crayons given to friends",
+                    "Number of crayons lost",
+                    "Total number of crayons received"
+                ],
+                "hints": [
+                    "1. Paul received a box with 110 crayons for his birthday.",
+                    "2. He gave 90 crayons to his friends during the school year.",
+                    "3. Paul lost 412 crayons in total.",
+                    "4. To determine the difference between the crayons lost and those given away, we subtract the number of crayons given away from the total number of crayons lost."
+                ],
+                "COT": "Paul received 110 crayons for his birthday.\nHe gave 90 crayons to his friends during the school year.\nPaul lost 412 crayons in total.\nTo find out how many more crayons he lost than those he gave to his friends, we subtract the number of crayons given away from the total number of crayons lost.\nThe difference between the crayons lost and those given away is 412 - 90 = 322 crayons.",
+                "answer": "322"
+            },
+            {
+                "problem": "Winter is almost here and most animals are migrating to warmer countries. There are 8 bird families living near the mountain. If 42 bird families flew away to africa and 31 bird families flew away to asia. How many more bird families flew away to africa than those that flew away to asia?",
+                "key_entities": [
+                    "Number of bird families that flew away to Africa",
+                    "Number of bird families that flew away to Asia",
+                    "Total number of bird families near the mountain"
+                ],
+                "hints": [
+                    "1. There are 8 bird families living near the mountain.",
+                    "2. 42 bird families migrated to Africa, and 31 bird families migrated to Asia.",
+                    "3. The difference between the number of bird families migrating to Africa and Asia can be calculated to determine how many more families flew to Africa.",
+                    "4. The total number of bird families near the mountain is essential to calculate the migration discrepancy."
+                ],
+                "COT": "There are 8 bird families living near the mountain.\n42 bird families flew away to Africa, and 31 bird families flew away to Asia.\nTo find out how many more bird families flew to Africa than to Asia, we need to calculate the difference between the two.\nThe total number of bird families near the mountain is 8.\nThe difference between the number of bird families that flew to Africa and Asia is 42 - 31 = 11.\nTherefore, 11 more bird families flew to Africa than to Asia.",
+                "answer": "11"
+            },
+            {
+                "problem": "Paul got a box of 267 crayons for his birthday. During the school year he lost 231 crayons while he gave away 308 crayons to his friends. How many more crayons did he give to his friends than those he lost?",
+                "key_entities": [
+                    "Number of crayons given to friends",
+                    "Number of crayons lost",
+                    "Total number of crayons received"
+                ],
+                "hints": [
+                    "1. Paul received a box containing 267 crayons for his birthday.",
+                    "2. He lost 231 crayons during the school year.",
+                    "3. He gave away 308 crayons to his friends.",
+                    "4. To find out how many more crayons he gave to his friends than those he lost, we need to calculate the difference between the number of crayons given away and the number lost."
+                ],
+                "COT": "Paul received 267 crayons for his birthday.\nHe lost 231 crayons during the school year.\nHe gave away 308 crayons to his friends.\nTo find out how many more crayons he gave to his friends than those he lost, we calculate the difference between the number of crayons given away and the number lost.\nThe difference between the number of crayons given to friends and those lost is 308 - 231 = 77 crayons.",
+                "answer": "77"
+            }     
+        ]
+    }
+}

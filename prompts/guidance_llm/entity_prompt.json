@@ -1,0 +1,271 @@
+{
+    "AQUA": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "key_entities": [
+                    "Total number of bananas",
+                    "Number of groups for bananas"
+                ]
+            },
+            {
+                "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+                "key_entities": [
+                    "Number of books purchased",
+                    "Total amount Edward has now",
+                    "Total amount spent by Edward"
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "key_entities": [
+                    "Number of chapters in the book",
+                    "Total number of pages in the book"
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "key_entities": [
+                    "Total number of bananas",
+                    "Number of groups for bananas"
+                ]
+            },
+            {
+                "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+                "key_entities": [
+                    "Number of books purchased",
+                    "Total amount Edward has now",
+                    "Total amount spent by Edward"
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "key_entities": [
+                    "Number of chapters in the book",
+                    "Total number of pages in the book"
+                ]
+            }
+        ]
+    },
+    "CSQA": {
+        "cot": [
+            {
+                "problem": "Where would you find a sloth that is not afraid of being hunted?",
+                "options": "A) forest canopy B) nature preserve C) zoo D) tropical rainforest E) commercial",
+                "key_entities": [
+                    "Location where sloths are found",
+                    "Condition related to hunting threat"
+                ]
+            },
+            {
+                "problem": "What gift do people claim that god has for people? ",
+                "options": "A) bible B) everywhere C) judge people D) care for people E) work miracles",
+                "key_entities": [
+                    "Gift from God",
+                    "People"
+                ]
+            },
+            {
+                "problem": "What is probably not built out of a wooden rod?",
+                "options": "A) broom B) broom closet C) old clock D) hardware store E) old houses",
+                "key_entities": [
+                    "Material of the object",
+                    "Possible objects built from a wooden rod"
+                ]
+            },
+            {
+                "problem": "Where do you use condoms?",
+                "options": "A) supermarket B) dick C) bedroom D) medicine chest E) bed",
+                "key_entities": [
+                    "Usage locations for condoms"
+                ]
+            }
+        ]
+    },
+    "SQA": {
+        "cot": [
+            {
+                "problem": "Do hamsters provide food for any animals?",
+                "key_entities": [
+                    "Hamsters as a food source",
+                    "Predators of hamsters"
+                ]
+            },
+            {
+                "problem": "Could Brooke Shields succeed at University of Pennsylvania?",
+                "key_entities": [
+                    "Brooke Shields",
+                    "Success at University of Pennsylvania"
+                ]
+            },
+            {
+                "problem": "Hydrogen's atomic number squared exceeds number of Spice Girls?",
+                "key_entities": [
+                    "Hydrogen's atomic number",
+                    "Square of Hydrogen's atomic number",
+                    "Number of Spice Girls",
+                    "Comparison between squared atomic number and number of Spice Girls"
+                ]
+            },
+            {
+                "problem": "Is it common to see frost during some college commencements? In the absence of predators?",
+                "key_entities": [
+                    "Occurrence of frost during college commencements",
+                    "Presence or absence of predators"
+                ]
+            }
+        ]
+    },
+    "gsm8k": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "key_entities": [
+                    "Total number of bananas",
+                    "Number of groups for bananas"
+                ]
+            },
+            {
+                "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+                "key_entities": [
+                    "Number of books purchased",
+                    "Total amount Edward has now",
+                    "Total amount spent by Edward"
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "key_entities": [
+                    "Number of chapters in the book",
+                    "Total number of pages in the book"
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "key_entities": [
+                    "Total number of bananas",
+                    "Number of groups for bananas"
+                ]
+            },
+            {
+                "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+                "key_entities": [
+                    "Number of books purchased",
+                    "Total amount Edward has now",
+                    "Total amount spent by Edward"
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "key_entities": [
+                    "Number of chapters in the book",
+                    "Total number of pages in the book"
+                ]
+            }
+        ]
+    },
+    "svamp": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "key_entities": [
+                    "Total number of bananas",
+                    "Number of groups for bananas"
+                ]
+            },
+            {
+                "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+                "key_entities": [
+                    "Number of books purchased",
+                    "Total amount Edward has now",
+                    "Total amount spent by Edward"
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "key_entities": [
+                    "Number of chapters in the book",
+                    "Total number of pages in the book"
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "key_entities": [
+                    "Total number of bananas",
+                    "Number of groups for bananas"
+                ]
+            },
+            {
+                "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+                "key_entities": [
+                    "Number of books purchased",
+                    "Total amount Edward has now",
+                    "Total amount spent by Edward"
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "key_entities": [
+                    "Number of chapters in the book",
+                    "Total number of pages in the book"
+                ]
+            }
+        ]
+    },
+    "AddSub": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "key_entities": [
+                    "Total number of bananas",
+                    "Number of groups for bananas"
+                ]
+            },
+            {
+                "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+                "key_entities": [
+                    "Number of books purchased",
+                    "Total amount Edward has now",
+                    "Total amount spent by Edward"
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "key_entities": [
+                    "Number of chapters in the book",
+                    "Total number of pages in the book"
+                ]
+            }
+        ],
+        "comcot": [
+    {
+        "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+        "key_entities": [
+            "Total number of bananas",
+            "Number of groups for bananas"
+        ]
+    },
+    {
+        "problem": "Edward spent $ 6 to buy 2 books each book costing him the same amount of money. Now he has $ 12. How much did each book cost?",
+        "key_entities": [
+            "Number of books purchased",
+            "Total amount Edward has now",
+            "Total amount spent by Edward"
+        ]
+    },
+    {
+        "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+        "key_entities": [
+            "Number of chapters in the book",
+            "Total number of pages in the book"
+        ]
+    }
+        ]
+    }
+}

@@ -1,0 +1,644 @@
+{
+    "AQUA": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSQA": {
+        "cot": [
+            {
+                "problem": "Where would you find a sloth that is not afraid of being hunted?",
+                "options": "A) forest canopy B) nature preserve C) zoo D) tropical rainforest E) commercial",
+                "entity_event_hints": [
+                    {
+                        "key": "Location where sloths are found",
+                        "hints": [
+                            "1.A location related to sloth habitats including natural habitats (e.g., forest canopy, tropical rainforest) and human-managed areas (e.g., nature preserve, zoo)."
+                        ]
+                    },
+                    {
+                        "key": "Condition related to hunting threat",
+                        "hints": [
+                            "1.The sloth is described as 'not afraid of being hunted,' implying a protected environment.",
+                            "2.Hunting threats are mitigated in controlled settings (e.g., nature preserves, zoos)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "What is probably not built out of a wooden rod?",
+                "options": "A) broom B) broom closet C) old clock D) hardware store E) old houses",
+                "entity_event_hints": [
+                    {
+                        "key": "Material of the object",
+                        "hints": [
+                            "1.The material 'wooden rod' as a construction component."
+                        ]
+                    },
+                    {
+                        "key": "Possible objects built from a wooden rod",
+                        "hints": [
+                            "1.Brooms (A) or old clocks (C) may incorporate rods as parts.",
+                            "2.Non-physical entities (e.g., hardware stores) or complex structures (e.g., houses) are less likely to be entirely built from a single wooden rod."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Where do you use condoms?",
+                "options": "A) supermarket B) dick C) bedroom D) medicine chest E) bed",
+                "entity_event_hints": [
+                    {
+                        "key": "Usage locations for condoms",
+                        "hints": [
+                            "1.Locations where condoms are used (not purchased or stored).",
+                            "2.Typically linked to private or intimate settings."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SQA": {
+        "cot": [
+            {
+                "problem": "Do hamsters provide food for any animals?",
+                "entity_event_hints": [
+                    {
+                        "key": "Hamsters as a food source",
+                        "hints": [
+                            "1.Whether hamsters serve as prey for other animals.",
+                            "2.Hamsters are small rodents, which in natural ecosystems often occupy lower trophic levels and may be preyed upon by predators."
+                        ]
+                    },
+                    {
+                        "key": "Predators of hamsters",
+                        "hints": [
+                            "1.Common predators of wild hamsters include carnivorous mammals (e.g., foxes, weasels), birds of prey (e.g., owls, hawks), and reptiles (e.g., snakes).",
+                            "2.Hamsters' habitat (e.g., deserts, grasslands) influences the types of predators they encounter.",
+                            "3.Domesticated hamsters in captivity are less likely to face predation."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Could Brooke Shields succeed at University of Pennsylvania?",
+                "entity_event_hints": [
+                    {
+                        "key": "Brooke Shields",
+                        "hints": [
+                            "1.Brooke Shields is a public figure known for her acting career and academic background (e.g., graduated from Princeton University).",
+                            "2.Her prior achievements and time management skills (balancing acting and education) may influence academic success.",
+                            "3.Public figures may face unique challenges (e.g., media attention, social expectations) in academic environments."
+                        ]
+                    },
+                    {
+                        "key": "Success at University of Pennsylvania",
+                        "hints": [
+                            "1.University of Pennsylvania is an Ivy League institution with rigorous academic standards.",
+                            "2.Success may depend on academic preparation, adaptability to coursework, and access to support resources.",
+                            "3.Non-academic factors (e.g., social integration, extracurricular involvement) could also contribute to success."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Hydrogen's atomic number squared exceeds number of Spice Girls?",
+                "entity_event_hints": [
+                    {
+                        "key": "Hydrogen's atomic number",
+                        "hints": [
+                            "1.Hydrogen has the simplest atomic structure with an atomic number of 1."
+                        ]
+                    },
+                    {
+                        "key": "Square of Hydrogen's atomic number",
+                        "hints": [
+                            "1.Calculating the square of Hydrogen's atomic number (1\u00b2 = 1)." 
+                        ]
+                    },
+                    {
+                        "key": "Number of Spice Girls",
+                        "hints": [
+                            "1.The Spice Girls are a known pop group with a fixed historical member count.",
+                            "2.The original Spice Girls had 5 members."
+                        ]
+                    },
+                    {
+                        "key": "Comparison between squared atomic number and number of Spice Girls",
+                        "hints": [
+                            "1.1 (squared atomic number) vs. 5 (group members)."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "gsm8k": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "svamp": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "AddSub": {
+        "cot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups. How big is each group of bananas?",
+                "entity_event_hints": [
+                    {
+                        "key": "Total number of bananas",
+                        "hints": [
+                            "1.There are 290 bananas in total."
+                        ]
+                    },
+                    {
+                        "key": "Number of groups for bananas",
+                        "hints": [
+                            "1.Bananas are divided into 2 groups, which directly determines the division calculation.",
+                            "2.The group size is calculated by dividing the total bananas (290) by the number of banana groups (2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Edward spent $6 to buy 2 books each book costing him the same amount of money. Now he has $12. How much did each book cost?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of books purchased",
+                        "hints": [
+                            "1. The question explicitly states Edward bought 2 books.",
+                            "2. 'Each book costing him the same amount' implies equal division of total cost."
+                        ]
+                    },
+                    {
+                        "key": "Total amount Edward has now",
+                        "hints": [
+                            "1. Edward's remaining money after the purchase is $12, which is a post-transaction value."
+                        ]
+                    },
+                    {
+                        "key": "Total amount spent by Edward",
+                        "hints": [
+                            "1. The total expenditure is $6.",
+                            "2. The relationship is: Total spent ($6) = Number of books (2) \u00d7 Cost per book."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of chapters in the book",
+                        "hints": [
+                            "1.The book has 3 chapters.",
+                            "2.The chapters are described as having the same number of pages."
+                        ]
+                    },
+                    {
+                        "key": "Total number of pages in the book",
+                        "hints": [
+                            "1.The total pages (594)  must be divided by the number of chapters (3) to find pages per chapter."
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

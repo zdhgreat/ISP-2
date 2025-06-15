@@ -1,0 +1,210 @@
+{
+    "AQUA": {
+        "cot": [
+            {
+                "problem": "A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?",
+                "options": "A) 53 km B) 55 km C) 52 km D) 60 km E) 50 km",
+                "COT": "The distance that the person traveled would have been 20 km/hr * 2.5 hrs = 50 km",
+                "answer": "14",
+                "choice": "E"
+            },
+            {
+                "problem": "John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of the numbers is?",
+                "options": "A) 50 B) 45 C) 65 D) 78 E) 64",
+                "COT": "If 10 is added to each number, then the mean of the numbers also increases by 10. So the new ",
+                "answer": "50",
+                "choice": "A"
+            },
+            {
+                "problem": "If a / b = 3/4 and 8a + 5b = 22,then find the value of a.",
+                "options": "A) 1/2 B) 3/2 C) 5/2 D) 4/2 E) 7/2",
+                "COT": "If a / b = 3/4, then b = 4a / 3. So 8a + 5(4a / 3) = 22. This simplifies to 8a + 20a / 3 = 22, which means 44a / 3 = 22. So a is equal to 3/2.",
+                "answer": "3/2",
+                "choice": "B"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?",
+                "options": "A) 53 km B) 55 km C) 52 km D) 60 km E) 50 km",
+                "COT": "The person is traveling at a constant speed of 20 km/hr.\nThe total time taken to reach the destination is 2.5 hours.\nTo find the distance, we use the formula:Distance=Speed\u00d7Time\nSubstituting the given values:Distance=20\u00a0km/hr\u00d72.5\u00a0hr\nCalculate the product:Distance=50\u00a0km",
+                "answer": "50",
+                "choice": "E"
+            },
+            {
+                "problem": "John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of the numbers is?",
+                "options": "A) 50 B) 45 C) 65 D) 78 E) 64",
+                "COT": "The average of 15 numbers is 40, which means the sum of these numbers can be found by multiplying the average by the number of numbers.\nSum of the numbers = 15 * 40 = 600.\nIf 10 is added to each of the 15 numbers, then the total increase in the sum will be 10 * 15 = 150.\nThe new sum of the numbers will be 600 + 150 = 750.\nTo find the new mean, divide the new sum by the number of numbers, which remains the same (15).\nNew mean = 750 / 15 = 50.",
+                "answer": "50",
+                "choice": "A"
+            },
+            {
+                "problem": "If a / b = 3/4 and 8a + 5b = 22,then find the value of a.",
+                "options": "A) 1/2 B) 3/2 C) 5/2 D) 4/2 E) 7/2",
+                "COT": "We are given the equation a/b=3/4. From this, we can express a=(3/4)\u00d7b.\nWe also have the equation 8a+5b=22. Substituting the expression for a from the first equation into the second equation, we get: 8\u00d7(3/4)\u00d7b+5b=22.\nThis simplifies to:6b+5b=22.\nCombining like terms, we get:11b=22.\nSolving for b, we divide both sides by 11: b=2.\nNow that we have the value of b, we can find a using the expression a=(3/4)\u00d7b:a=(3/4)\u00d72=3/2.\nThus, the value of a is 3/2.",
+                "answer": "3/2",
+                "choice": "B"
+            }
+        ]
+    },
+    "CSQA": {
+        "cot": [
+            {
+                "problem": "Where would you find a sloth that is not afraid of being hunted?",
+                "options": "A) forest canopy B) nature preserve C) zoo D) tropical rainforest E) commercial",
+                "COT": "To answer the question of where you would find a sloth that is not afraid of being hunted, we need to know where sloths live and when sloths are not afraid of being hunted.\nSloths live in places where their habitats are well protected.\nSloths are not afraid of being hunted when hunting is illegal in their living places.\nOf the above choices, (B) nature preserve makes the most sense because it well protects sloths' habitats and forbids hunting.",
+                "choice": "B"
+            },
+            {
+                "problem": "What gift do people claim that god has for people? ",
+                "options": "A) bible B) everywhere C) judge people D) care for people E) work miracles",
+                "COT": "To answer the question of what gift do people claim that god has for people, we need to know what is a gift from god and what people cannot do without the gift from god.\nThe gift from god is an ability that people normally cannot achieve.\nPeople normally cannot create miracles unless it is gifted by god. Of the above choices, (E) work miracles make the most sense because miracles refer to something that people cannot achieve unless it is gifted by god.",
+                "choice": "E"
+            },
+            {
+                "problem": "What is probably not built out of a wooden rod?",
+                "options": "A) broom B) broom closet C) old clock D) hardware store E) old houses",
+                "COT": "To answer the question of what is probably not built out of a wooden rod, we need to know what is a wooden rod and what a wooden rod can do.\nA wooden rod is a stick made of wood of various sizes.\nA wooden rod can be used as a part of tools or furniture. Of the above choices, (E) old houses make the most sense because the wooden rod is too weak to support old houses.",
+                "choice": "E"
+            },
+            {
+                "problem": "Where do you use condoms?",
+                "options": "A) supermarket B) dick C) bedroom D) medicine chest E) bed",
+                "COT": "To answer the question of where do you use condoms, we need to know when do people need condoms and where is the place people stay when they use condoms.\nPeople use condoms when they have sex.\nPeople have sex and use condoms in their bedrooms.\nOf the above choices, (C) bedroom makes the most sense because it is most polite and appropriate for people to have sex with condoms in the bedroom.",
+                "choice": "C"
+            }
+        ]
+    },
+    "SQA": {
+        "cot": [
+            {
+                "problem": "Do hamsters provide food for any animals?",
+                "COT": "Hamsters are prey animals.\nPrey are food for predators.\nThus, hamsters provide food for some animals.\nSo the answer is yes.",
+                "Answer": "Yes"
+            },
+            {
+                "problem": "Could Brooke Shields succeed at University of Pennsylvania?",
+                "COT": "Brooke Shields went to Princeton University.\nPrinceton University is about as academically rigorous as the University of Pennsylvania.\nThus, Brooke Shields could also succeed at the University of Pennsylvania.\nSo the answer is yes.",
+                "Answer": "Yes"
+            },
+            {
+                "problem": "Hydrogen's atomic number squared exceeds number of Spice Girls?",
+                "COT": "Hydrogen has an atomic number of 1.\n1 squared is 1.\nThere are 5 Spice Girls.\nThus, Hydrogen's atomic number squared is less than 5.\nSo the answer is no.",
+                "Answer": "No"
+            },
+            {
+                "problem": "Is it common to see frost during some college commencements? In the absence of predators?",
+                "COT": "College commencement ceremonies can happen in December, May, and June.\nDecember is in the winter, so there can be frost.\nThus, there could be frost at some commencements.\nSo the answer is Yes.",
+                "Answer": "Yes"
+            }
+        ]
+    },
+    "gsm8k": {
+        "cot": [
+            {
+                "problem": "Last week Fred had 60 dollars and Jason had 19 dollars. Jason washed cars over the weekend and now has 33 dollars. How much money did Jason make washing cars?",
+                "COT": "Initially, Jason had $19. After washing cars over the weekend, he now has $33. To find out how much money Jason made washing cars, we need to calculate the difference between his final amount and his initial amount. This can be done by subtracting his initial amount from his final amount: $33 - $19 = $14. Therefore, Jason made $14 washing cars over the weekend.",
+                "answer": "14"
+            },
+            {
+                "problem": "Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?",
+                "COT": "Let's denote the initial number of wrappers Danny had as \\(x\\). From the given information, we know that Danny found 66 wrappers at the park and currently has 68 wrappers in total. This means that the wrappers he found at the park are included in the total count of 68 wrappers. Therefore, the number of wrappers he had initially can be calculated by subtracting the wrappers found at the park from the total wrappers he has now:\n\n\\(x + 66 = 68\\)\n\\(x = 68 - 66\\)\n\\(x = 2\\)\n\nThus, Danny initially had 2 wrappers in his collection.",
+                "answer": "2"
+            },
+            {
+                "problem": "After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron. How deep was the water?",
+                "COT": "Let's denote Ron's height as \\( R \\) and Dean's height as \\( D \\). Given that Ron is 15 feet tall, we have \\( R = 15 \\) feet. Since Dean is 6 feet shorter than Ron, we can express Dean's height as \\( D = R - 6 \\). Substituting the value of Ron's height, we get \\( D = 15 - 6 = 9 \\) feet for Dean's height.\n\nThe depth of the water is 9 times Dean's height. Therefore, the depth of the water can be calculated as \\( 9 \times D = 9 \times 9 = 81 \\) feet. Hence, the depth of the water is 81 feet.",
+                "answer": "81"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+                "COT": "Janet's ducks lay a total of 16 eggs each day.\nEach day, Janet uses 3 eggs for breakfast and 4 eggs for baking muffins. That's 3 + 4 = 7 eggs used daily.\nWith 16 eggs laid and 7 used, the remainder that Janet has available to sell at the farmers' market each day is 16 - 7 = 9 eggs.\nJanet sells each of the remaining 9 eggs at $2 each. Therefore, her daily earnings from selling the eggs are 9 eggs \u00d7 $2/egg = $18.",
+                "answer": "18"
+            },
+            {
+                "problem": "Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?",
+                "COT": "For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.",
+                "answer": "4"
+            },
+            {
+                "problem": "Mark's basketball team scores 25 2 pointers, 8 3 pointers and 10 free throws.  Their opponents score double the 2 pointers but half the 3 pointers and free throws.  What's the total number of points scored by both teams added together?",
+                "COT": "Mark's team scores 25 2 pointers, meaning they scored 25*2= 50 points in 2 pointers.\nHis team also scores 6 3 pointers, meaning they scored 8*3= 24 points in 3 pointers\nThey scored 10 free throws, and free throws count as one point so they scored 10*1=10 points in free throws.\nAll together his team scored 50+24+10= 84 points\nMark's opponents scored double his team's number of 2 pointers, meaning they scored 50*2=100 points in 2 pointers.\nHis opponents scored half his team's number of 3 pointers, meaning they scored 24/2= 12 points in 3 pointers.\nThey also scored half Mark's team's points in free throws, meaning they scored 10/2=5 points in free throws.\nAll together Mark's opponents scored 100+12+5=117 points\nThe total score for the game is both team's scores added together, so it is 84+117=201 points",
+                "answer": "81"
+            }
+        ]
+    },
+    "svamp": {
+        "cot": [
+            {
+                "problem": "Last week Fred had 60 dollars and Jason had 19 dollars. Jason washed cars over the weekend and now has 33 dollars. How much money did Jason make washing cars?",
+                "COT": "Initially, Jason had $19. After washing cars over the weekend, he now has $33. To find out how much money Jason made washing cars, we need to calculate the difference between his final amount and his initial amount. This can be done by subtracting his initial amount from his final amount: $33 - $19 = $14. Therefore, Jason made $14 washing cars over the weekend.",
+                "answer": "14"
+            },
+            {
+                "problem": "Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?",
+                "COT": "Let's denote the initial number of wrappers Danny had as \\(x\\). From the given information, we know that Danny found 66 wrappers at the park and currently has 68 wrappers in total. This means that the wrappers he found at the park are included in the total count of 68 wrappers. Therefore, the number of wrappers he had initially can be calculated by subtracting the wrappers found at the park from the total wrappers he has now:\n\n\\(x + 66 = 68\\)\n\\(x = 68 - 66\\)\n\\(x = 2\\)\n\nThus, Danny initially had 2 wrappers in his collection.",
+                "answer": "2"
+            },
+            {
+                "problem": "After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron. How deep was the water?",
+                "COT": "Let's denote Ron's height as \\( R \\) and Dean's height as \\( D \\). Given that Ron is 15 feet tall, we have \\( R = 15 \\) feet. Since Dean is 6 feet shorter than Ron, we can express Dean's height as \\( D = R - 6 \\). Substituting the value of Ron's height, we get \\( D = 15 - 6 = 9 \\) feet for Dean's height.\n\nThe depth of the water is 9 times Dean's height. Therefore, the depth of the water can be calculated as \\( 9 \times D = 9 \times 9 = 81 \\) feet. Hence, the depth of the water is 81 feet.",
+                "answer": "81"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+                "COT": "Janet's ducks lay a total of 16 eggs each day.\nEach day, Janet uses 3 eggs for breakfast and 4 eggs for baking muffins. That's 3 + 4 = 7 eggs used daily.\nWith 16 eggs laid and 7 used, the remainder that Janet has available to sell at the farmers' market each day is 16 - 7 = 9 eggs.\nJanet sells each of the remaining 9 eggs at $2 each. Therefore, her daily earnings from selling the eggs are 9 eggs \u00d7 $2/egg = $18.",
+                "answer": "18"
+            },
+            {
+                "problem": "Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?",
+                "COT": "For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.",
+                "answer": "4"
+            },
+            {
+                "problem": "Mark's basketball team scores 25 2 pointers, 8 3 pointers and 10 free throws.  Their opponents score double the 2 pointers but half the 3 pointers and free throws.  What's the total number of points scored by both teams added together?",
+                "COT": "Mark's team scores 25 2 pointers, meaning they scored 25*2= 50 points in 2 pointers.\nHis team also scores 6 3 pointers, meaning they scored 8*3= 24 points in 3 pointers\nThey scored 10 free throws, and free throws count as one point so they scored 10*1=10 points in free throws.\nAll together his team scored 50+24+10= 84 points\nMark's opponents scored double his team's number of 2 pointers, meaning they scored 50*2=100 points in 2 pointers.\nHis opponents scored half his team's number of 3 pointers, meaning they scored 24/2= 12 points in 3 pointers.\nThey also scored half Mark's team's points in free throws, meaning they scored 10/2=5 points in free throws.\nAll together Mark's opponents scored 100+12+5=117 points\nThe total score for the game is both team's scores added together, so it is 84+117=201 points",
+                "answer": "81"
+            }
+        ]
+    },
+    "AddSub": {
+        "cot": [
+            {
+                "problem": "Last week Fred had 60 dollars and Jason had 19 dollars. Jason washed cars over the weekend and now has 33 dollars. How much money did Jason make washing cars?",
+                "COT": "Initially, Jason had $19. After washing cars over the weekend, he now has $33. To find out how much money Jason made washing cars, we need to calculate the difference between his final amount and his initial amount. This can be done by subtracting his initial amount from his final amount: $33 - $19 = $14. Therefore, Jason made $14 washing cars over the weekend.",
+                "answer": "14"
+            },
+            {
+                "problem": "Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?",
+                "COT": "Let's denote the initial number of wrappers Danny had as \\(x\\). From the given information, we know that Danny found 66 wrappers at the park and currently has 68 wrappers in total. This means that the wrappers he found at the park are included in the total count of 68 wrappers. Therefore, the number of wrappers he had initially can be calculated by subtracting the wrappers found at the park from the total wrappers he has now:\n\n\\(x + 66 = 68\\)\n\\(x = 68 - 66\\)\n\\(x = 2\\)\n\nThus, Danny initially had 2 wrappers in his collection.",
+                "answer": "2"
+            },
+            {
+                "problem": "After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron. How deep was the water?",
+                "COT": "Let's denote Ron's height as \\( R \\) and Dean's height as \\( D \\). Given that Ron is 15 feet tall, we have \\( R = 15 \\) feet. Since Dean is 6 feet shorter than Ron, we can express Dean's height as \\( D = R - 6 \\). Substituting the value of Ron's height, we get \\( D = 15 - 6 = 9 \\) feet for Dean's height.\n\nThe depth of the water is 9 times Dean's height. Therefore, the depth of the water can be calculated as \\( 9 \times D = 9 \times 9 = 81 \\) feet. Hence, the depth of the water is 81 feet.",
+                "answer": "81"
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+                "COT": "Janet's ducks lay a total of 16 eggs each day.\nEach day, Janet uses 3 eggs for breakfast and 4 eggs for baking muffins. That's 3 + 4 = 7 eggs used daily.\nWith 16 eggs laid and 7 used, the remainder that Janet has available to sell at the farmers' market each day is 16 - 7 = 9 eggs.\nJanet sells each of the remaining 9 eggs at $2 each. Therefore, her daily earnings from selling the eggs are 9 eggs \u00d7 $2/egg = $18.",
+                "answer": "18"
+            },
+            {
+                "problem": "Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?",
+                "COT": "For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.\nAngelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.\nHowever, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks.\nThey also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.\nAnd they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.\nSo Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.\nThey want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75\nThey will need to plan to study 4 days to allow for all the time they need.",
+                "answer": "4"
+            },
+            {
+                "problem": "Mark's basketball team scores 25 2 pointers, 8 3 pointers and 10 free throws.  Their opponents score double the 2 pointers but half the 3 pointers and free throws.  What's the total number of points scored by both teams added together?",
+                "COT": "Mark's team scores 25 2 pointers, meaning they scored 25*2= 50 points in 2 pointers.\nHis team also scores 6 3 pointers, meaning they scored 8*3= 24 points in 3 pointers\nThey scored 10 free throws, and free throws count as one point so they scored 10*1=10 points in free throws.\nAll together his team scored 50+24+10= 84 points\nMark's opponents scored double his team's number of 2 pointers, meaning they scored 50*2=100 points in 2 pointers.\nHis opponents scored half his team's number of 3 pointers, meaning they scored 24/2= 12 points in 3 pointers.\nThey also scored half Mark's team's points in free throws, meaning they scored 10/2=5 points in free throws.\nAll together Mark's opponents scored 100+12+5=117 points\nThe total score for the game is both team's scores added together, so it is 84+117=201 points",
+                "answer": "81"
+            }
+        ]
+    }
+}

@@ -1,0 +1,896 @@
+{
+    "AQUA": {
+        "cot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSQA": {
+        "cot": [
+            {
+                "problem": "A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revolving Door",
+                        "hints": [
+                            "1. Revolving doors are used in various public buildings to manage both the flow of people and energy efficiency by minimizing air exchange.",
+                            "2. These doors can control the rate of entry and exit, making it easier to monitor and secure entrances in busy or sensitive areas."
+                        ]
+                    },
+                    {
+                        "key": "High Security Locations",
+                        "hints": [
+                            "1. Banks often use revolving doors to enhance security, preventing quick exits and controlling access.",
+                            "2. Department stores and malls use revolving doors for similar reasons, especially in urban areas where theft and security are significant concerns.",
+                            "3. The presence of revolving doors in such locations can deter theft and unauthorized access, aligning with stringent security measures."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Security and Efficiency via Revolving Doors",
+                        "hints": [
+                            "1. Revolving doors play a crucial role in public buildings by regulating traffic flow and conserving energy through reduced air exchange.",
+                            "2. The controlled entry and exit mechanism of revolving doors aids in monitoring and enhancing security measures in areas with high foot traffic or sensitive operations.",
+                            "3. These doors are strategically deployed in high-security locations such as banks, department stores, and malls to restrict access, prevent unauthorized entry, and bolster overall security protocols, acting as a visible deterrent against criminal activities."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "What do people aim to do at work?",
+                "entity_event_hints": [
+                    {
+                        "key": "People",
+                        "hints": [
+                            "1. People are individuals who engage in various activities, including work, to achieve specific objectives or fulfill certain responsibilities.",
+                            "2. Understanding human behavior, motivations, and aspirations is crucial in determining what individuals aim to accomplish in different contexts."
+                        ]
+                    },
+                    {
+                        "key": "Work",
+                        "hints": [
+                            "1. Work refers to the tasks, duties, or activities individuals perform to achieve specific outcomes, contribute to society, or earn a living.",
+                            "2. Different professions and workplaces have distinct goals and expectations regarding the work individuals are expected to carry out."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Human Goals and Work Objectives",
+                        "hints": [
+                            "1. Work represents the actions individuals undertake to fulfill tasks, duties, or activities aimed at achieving specific outcomes, contributing to society, or earning a livelihood.",
+                            "2. People, as individuals engaging in various activities, including work, have distinct goals and expectations based on their professions and workplace environments.",
+                            "3. Understanding human behavior, motivations, and aspirations is essential in discerning the objectives individuals aim to accomplish through their work in diverse contexts."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?",
+                "entity_event_hints": [
+                    {
+                        "key": "Celebrating Love and Togetherness",
+                        "hints": [
+                            "1. James and their partner planned to go to bed early on their 5th Anniversary, signifying a desire for rest and intimacy to cherish their bond.",
+                            "2. Going to bed early reflects a conscious decision to prioritize each other's company and well-being, fostering a sense of closeness and relaxation.",
+                            "3. The 5th Anniversary, symbolizing strength and growth with the representation of wood, is a milestone for reflection, celebration, and strengthening the foundation of their relationship."
+                        ]
+                    },
+                    {
+                        "key": "James",
+                        "hints": [
+                            "1. James is celebrating his 5th anniversary, indicating a significant milestone in his relationship or marriage.",
+                            "2. His desire to go to bed early suggests a plan for a peaceful and intimate evening."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Cherishing Togetherness on a Milestone Anniversary",
+                        "hints": [
+                            "1. James and their partner, on their 5th Anniversary, planned to go to bed early, indicating a desire for a peaceful and intimate evening to celebrate their bond.",
+                            "2. The decision to prioritize rest and intimacy reflects a conscious effort to nurture their relationship, fostering closeness and relaxation.",
+                            "3. The 5th Anniversary, symbolizing strength and growth, serves as a milestone for reflection, celebration, and strengthening the foundation of their love and togetherness."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SQA": {
+        "cot": [
+            {
+                "problem": "Did the Hopi Indians use a symbol that was similar to the swastika?",
+                "entity_event_hints": [
+                    {
+                        "key": "Hopi Indians",
+                        "hints": [
+                            "1. The Hopi Indians are a Native American tribe primarily located in northeastern Arizona.",
+                            "2. The Hopi culture is known for its spiritual and symbolic use of various icons and motifs in their art and religious practices.",
+                            "3. Historically, the Hopi have used symbols in their rituals that have similarities to symbols used by other cultures."
+                        ]
+                    },
+                    {
+                        "key": "Swastika",
+                        "hints": [
+                            "1. The swastika is an ancient symbol used across various cultures worldwide, often associated with spirituality and auspiciousness.",
+                            "2. In the 20th century, the swastika was adopted by the Nazi Party in Germany, which dramatically altered its public perception.",
+                            "3. The swastika\u2019s design, a hooked cross, appears in various forms in the art and symbolism of many ancient cultures, including the Native Americans."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Cultural Symbolism of Swastika among Hopi Indians",
+                        "hints": [
+                            "1. The Hopi Indians, based in northeastern Arizona, are known for their deep spiritual and symbolic traditions, utilizing icons and motifs in art and rituals.",
+                            "2. Historically, the Hopi culture incorporates symbols similar to the swastika found in other global cultures, suggesting a convergence in symbolic design.",
+                            "3. Despite the swastika's tarnished modern association with Nazism, its ancient form remains a sacred symbol in many cultures worldwide, including among the Hopi, reflecting universal spiritual significance."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Does New York Harbor sit on a craton without volcanic activity?",
+                "entity_event_hints": [
+                    {
+                        "key": "New York Harbor",
+                        "hints": [
+                            "1. New York Harbor is a natural harbor located at the confluence of the Hudson River and the Atlantic Ocean.",
+                            "2. It serves as one of the largest natural harbors in the world and has been historically significant for trade and transportation.",
+                            "3. The harbor is surrounded by the metropolitan area of New York City, making it a crucial hub for economic activities."
+                        ]
+                    },
+                    {
+                        "key": "Volcanic activity",
+                        "hints": [
+                            "1. Volcanic activity refers to the phenomena associated with the eruption of molten rock, ash, and gases from the Earth's crust.",
+                            "2. It is typically concentrated along tectonic plate boundaries or hotspots, where magma from the mantle reaches the surface.",
+                            "3. Volcanic activity can lead to the formation of volcanic landforms such as mountains, calderas, and lava flows."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Geological Setting of New York Harbor",
+                        "hints": [
+                            "1. New York Harbor, situated at the junction of the Hudson River and the Atlantic Ocean, stands as a prominent natural harbor crucial for global trade and transportation.",
+                            "2. The harbor, enveloped by the bustling metropolitan expanse of New York City, serves as a vital economic center, facilitating diverse commercial activities.",
+                            "3. New York Harbor rests on a stable craton devoid of volcanic activity, contrasting with regions characterized by tectonic plate boundaries or hotspots prone to volcanic eruptions, ensuring a secure maritime environment for trade and navigation."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Are lengths measured in metres in the UK?",
+                "entity_event_hints": [
+                    {
+                        "key": "Metres",
+                        "hints": [
+                            "1. The meter (metre) is the base unit of length in the International System of Units (SI), symbolized as \"m\".",
+                            "2. It is defined as the distance traveled by light in a vacuum in 1/299,792,458 seconds.",
+                            "3. The meter is extensively used in scientific, engineering, and everyday applications due to its simplicity and coherence."
+                        ]
+                    },
+                    {
+                        "key": "UK",
+                        "hints": [
+                            "1. The United Kingdom (UK) comprises four countries: England, Scotland, Wales, and Northern Ireland.",
+                            "2. The UK has officially adopted the metric system for most measurements, including length, weight, and volume.",
+                            "3. While the metric system is predominant, some imperial units are still in use for specific purposes in the UK."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Metric System Usage for Length Measurement in the UK",
+                        "hints": [
+                            "1. The United Kingdom, consisting of England, Scotland, Wales, and Northern Ireland, has embraced the metric system as the primary standard for measurements like length, weight, and volume.",
+                            "2. The metric system, including units like meters and centimeters, is widely utilized in the UK, aligning with global standards for measurement consistency.",
+                            "3. Despite metric system predominance, remnants of imperial units persist in certain specialized contexts within the UK, showcasing a blend of traditional and modern measurement practices."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "gsm8k": {
+        "cot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "svamp": {
+        "cot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "AddSub": {
+        "cot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comcot": [
+            {
+                "problem": "Dave had 15 apps on his phone. He added 71 new apps. After deleting some he had 14 left. How many more apps did he delete than he added?",
+                "entity_event_hints": [
+                    {
+                        "key": "Number of apps Dave had after adding new apps",
+                        "hints": [
+                            "1.After adding new apps, Dave had a total of 15 + 71 = 86 apps."
+                        ]
+                    },
+                    {
+                        "key": "Number of apps Dave had after deleting some",
+                        "hints": [
+                            "1.Dave had 14 apps left after deleting some."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Apps Management",
+                        "hints": [
+                            "1.Dave initially had 15 apps on his phone.",
+                            "2.He added 71 new apps, resulting in a total of 86 apps.",
+                            "3.After deleting some apps, he was left with 14 apps.",
+                            "4.The difference between the number of apps he deleted and added can be calculated to determine how many more apps he deleted than added."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+                "entity_event_hints": [
+                    {
+                        "key": "Earnings for the week",
+                        "hints": [
+                            "1.Eliza's earnings for the week include regular pay for the first 40 hours and overtime pay for the additional 5 hours worked.",
+                            "2.The total earnings for the week are the sum of regular and overtime pay."
+                        ]
+                    },
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Eliza's Earnings",
+                        "hints": [
+                            "1.Eliza earns $10 per hour for the first 40 hours of work and 1.2 times her regular hourly rate for overtime hours.",
+                            "2.Eliza worked 45 hours this week.",
+                            "3.Earnings are calculated based on regular and overtime rates for hours worked."
+                        ]
+                    }
+                ]
+            },
+            {
+                "problem": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game. How much money did they make from selling the t-shirts?",
+                "entity_event_hints": [
+                    {
+                        "key": "Revenue per t-shirt",
+                        "hints": [
+                            "1.The problem states that the shop makes $87 off each t-shirt sold."
+                        ]
+                    },
+                    {
+                        "key": "Total number of t-shirts sold",
+                        "hints": [
+                            "1.The problem mentions that a total of 95 t-shirts were sold during the Arkansas and Texas Tech games combined."
+                        ]
+                    }
+                ],
+                "summary_hints": [
+                    {
+                        "key": "Revenue from T-shirt Sales",
+                        "hints": [
+                            "1.A total of 95 t-shirts were sold during the Arkansas and Texas Tech games.",
+                            "2.Each t-shirt sale generates $87 in revenue.",
+                            "3.Multiplying the total number of t-shirts sold by the revenue per t-shirt gives the total revenue from selling the t-shirts."
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
