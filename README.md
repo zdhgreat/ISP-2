@@ -36,6 +36,8 @@ pip install -r requirements.txt
 ## Setup Model
 Get your Llama2 weight on https://huggingface.co/meta-llama/Llama-2-13b-hf, set up on default directory: ./llama-2-13b-hf. Of course, you can also use the Llama3 model—please configure the path according to the default model name.
 
+Due to the requirements of the guidance library, we need to include the GPT-2 model when running the code. The model can be found at: [gpt2](https://huggingface.co/openai-community/gpt2)
+
 Thanks to Guidance's strong compatibility, our code also works with Mistral, Qwen2.5, and DeepSeek models.
 
 Model Links: DeepSeek: [DeepSeek](https://huggingface.co/collections/deepseek-ai/deepseek-r1-678e1e131c0169c0bc89728d), Qwen 2.5: [Qwen 2.5](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e), Mistral: [Mistral](https://huggingface.co/mistralai)
