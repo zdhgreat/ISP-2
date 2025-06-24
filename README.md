@@ -54,8 +54,9 @@ You can use any openai model (`gpt-3.5-turbo`, `gpt-4`, etc.) as `YOUR_MODEL`.
 `python main.py --model_name_or_path=YOUR_MODEL  --prompt_type=dd`
 
 ### LLaMA/DeepSeek Experiment
-You can use any model as `YOUR_MODEL`. We can just use the file in bash directory. For example:
-'''
+You can use any model as `YOUR_MODEL`. We can just use the file in bash directory. 
+
+```
 python llm_infer.py \
          --dataset "gsm8k" \
          --format "comcot" \
@@ -64,7 +65,7 @@ python llm_infer.py \
          --sc_num 5 \
          --model './Llama-3.1-8B' \
          --split 'final_test' 
-'''
+```
 
 ## Result
 We show CoT and Complex CoT with GPT-3.5-Turbo and GPT-4o-mini Here. For more experiments results (such as LlaMA and DeepSeek), please refer to our [Paper](https://arxiv.org/abs/2501.04341).
