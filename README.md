@@ -6,7 +6,7 @@
 
 ![ISP](ISP.drawio.png)
 
-ISP<sup>2</sup> is a plug-and-play prompting method, as shown in Figure. It is can be easily combined with preivious works such as Chain-of-Thought and Self-Consistency, as they are orthogonal. The work was accomplished by Dong-Hai Zhu, Yu-Jie Xiong, Jia-Chen Zhang, Xi-Jiong Xie, and Chun-Ming Xia.
+ISP<sup>2</sup> is a plug-and-play prompting method, as shown in Figure. It is can be easily combined with preivious works such as Chain-of-Thought and Self-Consistency, as they are orthogonal. 
 
 
 
