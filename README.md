@@ -73,13 +73,4 @@ We show CoT and Complex CoT with GPT-3.5-Turbo and GPT-4o-mini Here. For more ex
   <img src="result.png">
 </div>
 
-## Citation
-```
-@article{zhu2025understanding,
-  title={Understanding Before Reasoning: Enhancing Chain-of-Thought with Iterative Summarization Pre-Prompting},
-  author={Zhu, Dong-Hai and Xiong, Yu-Jie and Zhang, Jia-Chen and Xie, Xi-Jiong and Xia, Chun-Ming},
-  journal={arXiv preprint arXiv:2501.04341},
-  year={2025}
-}
-```
 
